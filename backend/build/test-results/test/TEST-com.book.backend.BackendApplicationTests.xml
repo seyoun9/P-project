@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.book.backend.BackendApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-13T03:06:46" hostname="DESKTOP-ELJ0JQ9" time="0.616">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.book.backend.BackendApplicationTests" time="0.616"/>
+  <system-out><![CDATA[12:06:35.555 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.book.backend.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:06:35.740 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.book.backend.BackendApplication for test class com.book.backend.BackendApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2024-12-13T12:06:37.728+09:00  INFO 19696 --- [backend] [    Test worker] c.book.backend.BackendApplicationTests   : Starting BackendApplicationTests using Java 17.0.8 with PID 19696 (started by jsw36 in C:\Users\jsw36\springlogin\Book\backend)
+2024-12-13T12:06:37.729+09:00  INFO 19696 --- [backend] [    Test worker] c.book.backend.BackendApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-12-13T12:06:38.906+09:00  INFO 19696 --- [backend] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-13T12:06:39.141+09:00  INFO 19696 --- [backend] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 215 ms. Found 4 JPA repository interfaces.
+2024-12-13T12:06:39.477+09:00  INFO 19696 --- [backend] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ea597608-ca69-36d5-8922-bbbee828441e
+2024-12-13T12:06:39.851+09:00  INFO 19696 --- [backend] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-13T12:06:40.363+09:00  INFO 19696 --- [backend] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f76872f
+2024-12-13T12:06:40.366+09:00  INFO 19696 --- [backend] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-13T12:06:40.454+09:00  INFO 19696 --- [backend] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-13T12:06:40.586+09:00  INFO 19696 --- [backend] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-13T12:06:40.666+09:00  INFO 19696 --- [backend] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-13T12:06:41.174+09:00  INFO 19696 --- [backend] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-13T12:06:41.312+09:00  INFO 19696 --- [backend] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-13T12:06:42.416+09:00  INFO 19696 --- [backend] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-13T12:06:42.420+09:00  INFO 19696 --- [backend] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-13T12:06:42.952+09:00  WARN 19696 --- [backend] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-13T12:06:43.237+09:00  WARN 19696 --- [backend] [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a9dede44-503c-4aec-967a-6fe519614183
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-13T12:06:43.263+09:00  INFO 19696 --- [backend] [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-13T12:06:45.517+09:00  INFO 19696 --- [backend] [    Test worker] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-12-13T12:06:46.702+09:00  INFO 19696 --- [backend] [    Test worker] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-12-13T12:06:46.838+09:00  INFO 19696 --- [backend] [    Test worker] c.book.backend.BackendApplicationTests   : Started BackendApplicationTests in 10.636 seconds (process running for 12.55)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
